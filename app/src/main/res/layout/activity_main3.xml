@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:background="@drawable/backcall">
+
+    <TextView
+        android:id="@+id/call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Incoming Call"
+        android:textSize="50px"
+        android:textColor="@color/white"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="20px"></TextView>
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_below="@id/call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+6287784317648"
+        android:textSize="75px"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="200px"></TextView>
+
+
+    <TextView
+        android:id="@+id/country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/number"
+        android:layout_centerInParent="true"
+        android:text="Indonesia"
+        android:textSize="30px"
+        android:textColor="@color/white"/>
+
+    <ImageButton
+        android:id="@+id/angkat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/angkat"
+        android:scaleType="fitCenter"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_below="@id/country"
+        android:layout_marginTop="850px"
+        android:layout_marginRight="700px"
+        android:layout_marginLeft="200px"
+        android:layout_marginBottom="100px"></ImageButton>
+
+    <ImageButton
+        android:id="@+id/tutup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tutup"
+        android:scaleType="fitCenter"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_below="@id/country"
+        android:layout_marginTop="850px"
+        android:layout_marginRight="200px"
+        android:layout_marginLeft="700px"
+        android:layout_marginBottom="100px"></ImageButton>
+
+</RelativeLayout>

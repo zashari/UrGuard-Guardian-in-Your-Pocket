@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "181637992293",
+    "project_id": "urguardfix",
+    "storage_bucket": "urguardfix.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181637992293:android:4147d64566ba9d47dd1b8c",
+        "android_client_info": {
+          "package_name": "com.gard.urguard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181637992293-lq7mg27pup4duim65eqrbbo1oprks2ii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoDmzX6W6_Ml_Qj_LoUpa0TEaCVPVDNfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "181637992293-lq7mg27pup4duim65eqrbbo1oprks2ii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/logoo"
+        android:layout_width="wrap_content"
+        android:layout_height="300px"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/urguard1"
+        android:layout_marginTop="20px"
+        android:layout_marginRight="400px"
+        android:layout_marginLeft="0px"
+        android:contentDescription="TODO" />
+
+
+
+    <ImageView
+        android:id="@+id/maps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoo"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="75px"
+        android:layout_marginRight="75px"
+        android:layout_marginBottom="400px"
+        android:background="@drawable/rounded"
+        android:src="@drawable/mapslayout"></ImageView>
+
+    <ImageButton
+        android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/maps"
+        android:layout_marginTop="-350px"
+        android:layout_marginRight="800px"
+        android:layout_marginBottom="40px"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/stop"
+        android:background="?android:attr/selectableItemBackground">
+    </ImageButton>
+
+
+
+</RelativeLayout>

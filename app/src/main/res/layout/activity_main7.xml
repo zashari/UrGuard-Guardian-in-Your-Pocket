@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@color/black"
+    tools:ignore="ExtraText">
+
+    <ImageView
+        android:id="@+id/logoo"
+        android:layout_width="wrap_content"
+        android:layout_height="300px"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/urguard1"
+        android:layout_marginTop="20px"
+        android:layout_marginRight="400px"
+        android:layout_marginLeft="0px"
+        android:contentDescription="TODO" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/btncross"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mark"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_marginRight="20px"
+            android:layout_marginTop="5px"
+            android:layout_marginLeft="900px"
+            android:layout_marginBottom="1600px"
+            android:scaleType="fitCenter"></ImageButton>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/profile"
+        android:layout_width="1000px"
+        android:layout_height="500px"
+        android:layout_below="@id/logoo"
+        android:layout_centerInParent="true"
+        android:background="@drawable/profback">
+
+        <TextView
+            android:id="@+id/fullname_input"
+            android:layout_width="600px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="400px"
+            android:layout_marginTop="150px"
+            android:fontFamily="@font/nunito"
+            android:textColor="@color/black"
+            android:textSize="75px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/email_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-590px"
+            android:layout_marginTop="220px"
+            android:fontFamily="@font/nunito"
+            android:textColor="@color/black"
+            android:textSize="50px" />
+
+
+
+    </LinearLayout>
+
+   <RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/profilepict"
+        android:layout_width="400px"
+        android:layout_height="300px"
+        android:layout_marginTop="430px"
+        android:layout_marginLeft="30px"
+        android:scaleType="fitCenter"
+        android:src="@drawable/user" />
+
+       <ProgressBar
+           android:id="@+id/progressBar"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerHorizontal="true"
+           android:layout_centerVertical="true"
+           android:visibility="gone"/>
+
+   </RelativeLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/emergency"
+        android:layout_width="1000px"
+        android:layout_height="200px"
+        android:layout_below="@id/profile"
+        android:background="@drawable/profback"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50px"
+        android:text="Emergency contact list"
+        android:textSize="50px"
+        ></androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/snk"
+        android:layout_width="1000px"
+        android:layout_height="200px"
+        android:layout_below="@id/emergency"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50px"
+        android:background="@drawable/profback"
+        android:text="Term and condition"
+        android:textSize="50px"></androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnlogout"
+        android:layout_width="1000px"
+        android:layout_height="200px"
+        android:layout_below="@id/snk"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50px"
+        android:background="@drawable/logoutback"
+        android:text="Logout"
+        android:textSize="50px"></androidx.appcompat.widget.AppCompatButton>
+
+</RelativeLayout>
